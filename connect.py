@@ -27,7 +27,7 @@ class Serach:
         req.add_header('Host','blog.csdn.net');
         req.add_header('Referer','http://blog.csdn.net/');
         req.add_header('GET',page);
-        #首页的全部内容
+        #页面的全部内容
         return urllib2.urlopen(req).read();
     
 
